@@ -30,7 +30,6 @@ class Flake {
     c_shake_limit = ceil((random(10000))/100)+15;
     y = (random(1000)+5)*-1;
     frequency = (random(100))/100;
-    println(frequency);
     personality = random(1) > .5? true : false;
   }
 
